@@ -1,9 +1,21 @@
 <resources>
-    <string name="app_name">DemoNavigation</string>
+    <string name="app_name">Rosgram</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="go_to_second">Go to Second</string>
-    <string name="go_to_first">go_to_first</string>
-    <string name="first">First</string>
-    <string name="second">Second</string>
+    <string name="go_to_authorization">Sign in</string>
+    <string name="go_to_registration">Sign up</string>
+    <string name="go_to_menu_from_authorization">Enter</string>
+    <string name="go_to_menu_from_registration">Register</string>
+    <string name="go_to_games">Games</string>
+    <string name="go_to_news">News</string>
+    <string name="go_to_friends">Friends</string>
+    <string name="go_to_messages">Messages</string>
+    <string name="go_to_communities">Communities</string>
+    <string name="go_to_photos">Photos</string>
+    <string name="go_to_menu_from_games">Menu</string>
+    <string name="go_to_menu_from_news">Menu</string>
+    <string name="go_to_menu_from_friends">Menu</string>
+    <string name="go_to_menu_from_messages">Menu</string>
+    <string name="go_to_menu_from_communities">Menu</string>
+    <string name="go_to_menu_from_photos">Menu</string>
 </resources>

@@ -22,34 +22,6 @@ class MainActivity : AppCompatActivity() {
             .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         navController = navHostFragment.navController
 
-        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_nav)
-
-        bottomNavigationView.setupWithNavController(navController)
-
-//        appBarConfiguration = AppBarConfiguration(
-//            setOf(R.id.firstFragment, R.id.secondFragment)
-//        )
-
-//        setupActionBarWithNavController(navController, appBarConfiguration)
-
-
-
-//        bottomNavigationView.setOnItemSelectedListener {
-//            when(it.itemId) {
-//                R.id.action_firstFragment -> {
-//                    navController.navigate(R.id.action_secondFragment_to_firstFragment)
-//                    return@setOnItemSelectedListener true
-//                }
-//                R.id.action_secondFragment -> {
-//                    navController.navigate(R.id.action_firstFragment_to_secondFragment2)
-//                    return@setOnItemSelectedListener true
-//                }
-//                else -> {
-//                    return@setOnItemSelectedListener false
-//                }
-//            }
-//        }
-
 
     }
 

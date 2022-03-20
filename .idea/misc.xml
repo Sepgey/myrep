@@ -3,6 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Sergey/Desktop/Studies/4_course/2_semester/Android/DemoNav/app/src/main/res/layout/activity_main.xml" value="0.18432971014492755" />
+        <entry key="..\:/Users/Sergey/Desktop/Studies/4_course/2_semester/Android/DemoNav/app/src/main/res/layout/authorization.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Sergey/Desktop/Studies/4_course/2_semester/Android/DemoNav/app/src/main/res/layout/fragment_authorization.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Sergey/Desktop/Studies/4_course/2_semester/Android/DemoNav/app/src/main/res/layout/fragment_communities.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Sergey/Desktop/Studies/4_course/2_semester/Android/DemoNav/app/src/main/res/layout/fragment_friends.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Sergey/Desktop/Studies/4_course/2_semester/Android/DemoNav/app/src/main/res/layout/fragment_games.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Sergey/Desktop/Studies/4_course/2_semester/Android/DemoNav/app/src/main/res/layout/fragment_home_screen.xml" value="0.4" />
+        <entry key="..\:/Users/Sergey/Desktop/Studies/4_course/2_semester/Android/DemoNav/app/src/main/res/layout/fragment_menu.xml" value="0.4" />
+        <entry key="..\:/Users/Sergey/Desktop/Studies/4_course/2_semester/Android/DemoNav/app/src/main/res/layout/fragment_messages.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Sergey/Desktop/Studies/4_course/2_semester/Android/DemoNav/app/src/main/res/layout/fragment_news.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Sergey/Desktop/Studies/4_course/2_semester/Android/DemoNav/app/src/main/res/layout/fragment_photos.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Sergey/Desktop/Studies/4_course/2_semester/Android/DemoNav/app/src/main/res/layout/fragment_registration.xml" value="0.4" />
+        <entry key="..\:/Users/Sergey/Desktop/Studies/4_course/2_semester/Android/DemoNav/app/src/main/res/layout/home_screen.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Sergey/Desktop/Studies/4_course/2_semester/Android/DemoNav/app/src/main/res/menu/nav_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/grk/projects/AndroidStudioProjects/DemoNavigation/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/grk/projects/AndroidStudioProjects/DemoNavigation/app/src/main/res/layout/fragment_first.xml" value="0.1" />
         <entry key="..\:/Users/grk/projects/AndroidStudioProjects/DemoNavigation/app/src/main/res/layout/fragment_second.xml" value="0.1" />
@@ -10,7 +24,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

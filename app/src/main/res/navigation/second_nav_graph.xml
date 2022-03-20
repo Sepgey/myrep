@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/second_nav_graph"
+    app:startDestination="@id/menu2">
+
+    <fragment
+        android:id="@+id/menu2"
+        android:name="ru.rut.demonavigation.Menu"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menu2_to_news2"
+            app:destination="@id/news2" />
+        <action
+            android:id="@+id/action_menu2_to_photos2"
+            app:destination="@id/photos2" />
+        <action
+            android:id="@+id/action_menu2_to_messages2"
+            app:destination="@id/messages2" />
+        <action
+            android:id="@+id/action_menu2_to_communities2"
+            app:destination="@id/communities2" />
+        <action
+            android:id="@+id/action_menu2_to_friends2"
+            app:destination="@id/friends2" />
+        <action
+            android:id="@+id/action_menu2_to_games2"
+            app:destination="@id/games2" />
+    </fragment>
+    <fragment
+        android:id="@+id/communities2"
+        android:name="ru.rut.demonavigation.Communities"
+        android:label="fragment_communities"
+        tools:layout="@layout/fragment_communities" >
+        <action
+            android:id="@+id/action_communities2_to_menu2"
+            app:destination="@id/menu2" />
+    </fragment>
+    <fragment
+        android:id="@+id/friends2"
+        android:name="ru.rut.demonavigation.Friends"
+        android:label="fragment_friends"
+        tools:layout="@layout/fragment_friends" >
+        <action
+            android:id="@+id/action_friends2_to_menu2"
+            app:destination="@id/menu2" />
+    </fragment>
+    <fragment
+        android:id="@+id/games2"
+        android:name="ru.rut.demonavigation.Games"
+        android:label="fragment_games"
+        tools:layout="@layout/fragment_games" >
+        <action
+            android:id="@+id/action_games2_to_menu2"
+            app:destination="@id/menu2" />
+    </fragment>
+    <fragment
+        android:id="@+id/messages2"
+        android:name="ru.rut.demonavigation.Messages"
+        android:label="fragment_messages"
+        tools:layout="@layout/fragment_messages" >
+        <action
+            android:id="@+id/action_messages2_to_menu2"
+            app:destination="@id/menu2" />
+    </fragment>
+    <fragment
+        android:id="@+id/news2"
+        android:name="ru.rut.demonavigation.News"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" >
+        <action
+            android:id="@+id/action_news2_to_menu2"
+            app:destination="@id/menu2" />
+    </fragment>
+    <fragment
+        android:id="@+id/photos2"
+        android:name="ru.rut.demonavigation.Photos"
+        android:label="fragment_photos"
+        tools:layout="@layout/fragment_photos" >
+        <action
+            android:id="@+id/action_photos2_to_menu2"
+            app:destination="@id/menu2" />
+    </fragment>
+</navigation>

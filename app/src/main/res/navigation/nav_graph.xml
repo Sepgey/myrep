@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/firstFragment"
-        android:name="ru.rut.demonavigation.FirstFragment"
+        android:name="ru.rut.demonavigation.HomeScreen"
         android:label="fragment_first"
-        tools:layout="@layout/fragment_first" >
+        tools:layout="@layout/fragment_home_screen" >
         <action
             android:id="@+id/action_firstFragment_to_secondFragment2"
             app:destination="@id/secondFragment"
@@ -17,18 +17,27 @@
             app:exitAnim="@anim/fade_in"
             app:popEnterAnim="@anim/slide_out"
             app:popExitAnim="@anim/slide_in" />
+        <action
+            android:id="@+id/action_firstFragment_to_registration"
+            app:destination="@id/registration" />
     </fragment>
     <fragment
         android:id="@+id/secondFragment"
-        android:name="ru.rut.demonavigation.SecondFragment"
+        android:name="ru.rut.demonavigation.Authorization"
         android:label="fragment_second"
-        tools:layout="@layout/fragment_second" >
+        tools:layout="@layout/fragment_authorization" >
         <action
-            android:id="@+id/action_secondFragment_to_firstFragment"
-            app:destination="@id/firstFragment"
-            app:enterAnim="@anim/slide_in"
-            app:exitAnim="@anim/slide_out"
-            app:popEnterAnim="@anim/fade_out"
-            app:popExitAnim="@anim/fade_in" />
+            android:id="@+id/action_secondFragment_to_second_nav_graph"
+            app:destination="@id/second_nav_graph" />
+    </fragment>
+    <include app:graph="@navigation/second_nav_graph" />
+    <fragment
+        android:id="@+id/registration"
+        android:name="ru.rut.demonavigation.Registration"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/action_registration_to_second_nav_graph"
+            app:destination="@id/second_nav_graph" />
     </fragment>
 </navigation>

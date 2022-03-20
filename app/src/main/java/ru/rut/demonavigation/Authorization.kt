@@ -16,10 +16,10 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [FirstFragment.newInstance] factory method to
+ * Use the [Authorization.newInstance] factory method to
  * create an instance of this fragment.
  */
-class FirstFragment : Fragment() {
+class Authorization : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -37,16 +37,16 @@ class FirstFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_first, container, false)
-        val button = view.findViewById<Button>(R.id.first_button)
-        button.setOnClickListener {
+        val view = inflater.inflate(R.layout.fragment_authorization, container, false)
+        val buttonEnter = view.findViewById<Button>(R.id.authorization)
+        buttonEnter.setOnClickListener {
             findNavController().navigate(
-                R.id.action_firstFragment_to_secondFragment2,
+                R.id.action_secondFragment_to_second_nav_graph,
                 null,
                 navOptions {
                     anim {
-                        enter = R.anim.slide_in
-                        exit = R.anim.fade_out
+                        enter = R.anim.fade_in
+                        exit = R.anim.slide_out
                     }
                 }
             )
@@ -61,12 +61,12 @@ class FirstFragment : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment FirstFragment.
+         * @return A new instance of fragment SecondFragment.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            FirstFragment().apply {
+            Authorization().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)
